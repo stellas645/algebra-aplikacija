@@ -1,0 +1,387 @@
+#form {
+    display: inline-block;
+    position: relative;
+    width:55%;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-left: 24%;
+    background-color: rgba(235, 193, 182, 0.349);
+    border: solid 2px rgb(110, 54, 14);
+    border-radius: 20px;
+ }
+
+ .this-input{
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color:  #fafafa64;
+    color: rgba(33, 7, 7, 0.609);
+    border: solid 1px cornflowerblue;
+    border-radius: 7px;
+    margin-left: 50px;
+    margin-top: 95px;
+    margin-bottom: 70px;
+}
+
+.send-button{
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color:  #85838264;
+    color: rgba(33, 7, 7, 0.609);
+    border: none;
+    border-radius: 50px;
+    margin-left: 530px;
+    margin-top: 95px;
+    margin-bottom: 70px;
+}
+
+
+@media (max-width: 1350px){
+    #form{
+    position: relative;
+    display: inline-block;
+    width:55%;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-left: 24%;
+    font-size: 16px;
+    border-radius: 20px;
+    }
+
+    .this-input{
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 95px;
+    margin-bottom: 70px;
+    }
+    
+    .send-button{
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-left: 530px;
+    margin-top: 95px;
+    margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 1200px){
+    #form{
+    position: relative;
+    display: inline-block;
+    width:55%;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-left: 24%;
+    font-size: 16px;
+    border-radius: 20px;
+    }
+
+    .send-button{
+    position: absolute;
+    padding: 4px 9px;
+    font-size: 15px;
+    border-radius: 40px;
+    margin-left: 450px;
+    margin-top: 97px;
+    margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 1100px){
+    #form{
+    position: relative;
+    display: inline-block;
+    width:55%;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-left: 24%;
+    font-size: 16px;
+    border-radius: 20px;
+    }
+        
+    .send-button{
+    position: absolute;
+    padding: 4px 9px;
+    font-size: 15px;
+    border-radius: 40px;
+    margin-left: 410px;
+    margin-top: 97px;
+    margin-bottom: 65px;
+    }
+}
+@media (max-width: 1000px) {
+    #form{
+    position: relative;
+    width:55%;
+    height: 130px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-left: 24%;
+    font-size: 14px;
+    border-radius: 18px;
+    }
+
+    .this-input{
+    position: absolute;
+    padding: 4px 9px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 87px;
+    margin-bottom: 65px;
+    }
+    
+    .send-button{
+    position: absolute;
+    padding: 4px 9px;
+    font-size: 15px;
+    border-radius: 40px;
+    margin-left: 370px;
+    margin-top: 87px;
+    margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 920px){
+    #form{
+    position: relative;
+    width:55%;
+    height: 110px;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    margin-left: 24%;
+    font-size: 12px;
+    border-radius: 16px;
+    }
+    
+    .this-input{
+    position: absolute;
+    padding: 3px 7px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    }
+
+    .send-button{
+    position: absolute;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 800px){
+    .send-button{
+    position: absolute;
+    padding: 4px 9px;
+    font-size: 12px;
+    border-radius: 40px;
+    margin-left: 285px;
+    margin-top: 70px;
+    margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 700px) {
+    #form{
+    position: relative;
+    width:60%;
+    height: 95px;
+    margin-top: 15%;
+    margin-bottom: 30%;
+    margin-left: 24%;
+    font-size: 10px;
+    border-radius: 12px;
+    }
+
+    .this-input{
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 8px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+    
+    .send-button{
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 8px;
+    border-radius: 4px;
+    margin-left: 300px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 600px){
+    .send-button{
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 8px;
+    border-radius: 4px;
+    margin-left: 245px;
+    margin-top: 66px;
+    margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 500px){
+    .this-input{
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 8px;
+    border-radius: 4px;
+    margin-left: 25px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+        
+    .send-button{
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 8px;
+    border-radius: 4px;
+    margin-left: 185px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 400px){
+    .this-input{
+    position: absolute;
+    padding: 1px 3px;
+    font-size: 6px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+        
+    .send-button{
+    position: absolute;
+    padding: 1px 3px;
+    font-size: 6px;
+    border-radius: 3px;
+    margin-left: 150px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 300px){
+    #form{
+    position: relative;
+    width:60%;
+    height: 95px;
+    margin-top: 15%;
+    margin-bottom: 70%;
+    margin-left: 15%;
+    font-size: 10px;
+    border-radius: 12px;
+    }
+
+    .this-input{
+    position: absolute;
+    padding: 1px 3px;
+    font-size: 6px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+        
+    .send-button{
+    position: absolute;
+    padding: 1px 3px;
+    font-size: 6px;
+    border-radius: 3px;
+    margin-left: 105px;
+    margin-top: 66px;
+    margin-bottom: 55px;
+    }
+}
+
+
+@media (max-width: 200px){
+    #form{
+    position: relative;
+    width: 80%;
+    height: 95px;
+    margin-top: 15%;
+    margin-bottom: 70%;
+    margin-left: 15%;
+    font-size: 10px;
+    border-radius: 12px;
+    }
+
+    .this-input{
+    position: absolute;
+    padding: 1px 3px;
+    font-size: 6px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    }
+        
+    .send-button{
+    position: absolute;
+    padding: 1px 3px;
+    font-size: 6px;
+    border-radius: 3px;
+    margin-left: 93px;
+    margin-top: 66px;
+    margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 100px){
+    #form {
+    position: relative;
+    width:85%;
+    height: 60px;
+    margin-top: 20%;
+    margin-bottom: 90%;
+    margin-left: 8%;
+    font-size: 6px;
+    border-radius: 20px;
+     }
+    
+    .this-input{
+    position: relative;
+    padding: 0.5px 1px;
+    font-size: 4px;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    }
+        
+    .send-button{
+    position: absolute;
+    padding: 0.5px 1px;
+    font-size: 4px;
+    border-radius: 1px;
+    margin-left: -48px;
+    margin-top: 42px;
+    margin-bottom: 35px;
+    }
+}

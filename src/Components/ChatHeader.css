@@ -1,0 +1,170 @@
+.algebra-chat-app-header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+    padding: 60px;
+    background: rgb(232, 173, 246);
+    color: rgb(236, 102, 147);
+}
+
+.change-theme-button {
+    margin-top: 2%;
+    margin-left: 20%;
+    position: absolute;
+    border-radius: 15px 15px;
+    width: 20px;
+    color: darkslategrey;
+}
+
+.h1 {
+    font-style: oblique;
+    color: #e8ad6e;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 60px;
+}
+
+@media (max-width: 1350px){
+.algebra-chat-app-header {
+    height: 100vh;
+    width: 100vh;
+    padding: 60px;
+    }
+
+.change-theme-button{
+    width: 20px;
+    margin-top: 2%;
+    margin-left: 20%;
+    }
+
+.h1{
+    font-size: 60px;
+   }
+}
+
+@media (max-width: 1000px){
+    .algebra-chat-app-header {
+        height: 100vh;
+        width: 100vh;
+        padding: 50px;
+        }
+
+    .change-theme-button{
+        width: 20px;
+        margin-top: 2%;
+        margin-left: 20%;
+        } 
+
+    .h1{
+     font-size: 50px;
+       }
+}
+
+@media (max-width: 920px){
+    .algebra-chat-app-header {
+    height: 100vh;
+    width: 100vh;
+    padding: 30px;
+    }
+
+    .change-theme-button{
+    width: 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+    }
+
+.h1{
+    font-size: 40px;
+   }
+}
+
+@media (max-width: 700px){
+    .algebra-chat-app-header {
+    height: 100vh;
+    width: 100vh;
+    padding: 15px;
+    }
+        
+    .change-theme-button{
+    width: 10px;
+    margin-top: 3%;
+    margin-left: 20%;
+    }
+
+    .h1{
+    font-size: 20px;
+    margin-top: 8%;
+    }
+}
+        
+@media (max-width: 600px){
+    .change-theme-button{
+    width: 10px;
+    margin-top: 3%;
+    margin-left: 20%;
+    }
+    }
+
+    @media (max-width: 500px){
+    .change-theme-button{
+    width: 10px;
+    margin-top: 2%;
+    margin-left: 20%;
+    }
+}
+
+@media (max-width: 400px){
+    .change-theme-button{
+    width: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+    }
+}
+
+@media (max-width: 300px){
+    .change-theme-button{
+    width: 8px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+    }
+
+
+    .h1{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 20%;
+    }
+}
+
+@media (max-width: 200px){
+    .change-theme-button{
+    width: 8px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+    }
+
+    .h1{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 20%;
+    }
+}
+
+@media (max-width: 100px){
+    .change-theme-button{
+    width: 5px;
+    margin-top: 50%;
+    margin-left: 15%;
+    } 
+
+    .h1{
+    font-size: 10px;
+    position: absolute;
+    margin-left: 6%;
+    }
+}
+

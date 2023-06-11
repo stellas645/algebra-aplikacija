@@ -1,0 +1,333 @@
+.current-user {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.chat-content {
+  margin-right: 80px;
+  display: inline-block;
+  align-items:flex-end;
+}
+
+.color{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px -10px 0; 
+}
+
+.username{
+  display: block;
+  font-size: 12px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  margin: 2px 6px 4px;
+}
+
+.current-user > .chat-content .chat-text {
+  background: #e463b7;
+}
+
+.chat-list{
+  list-style-type: none;
+}
+
+.chat-text {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  padding: 10px 19px;
+  max-width: 300px;
+  margin: 0 7px;
+  border-radius: 10px;
+  background: #48e3b2;
+  display: inline-block;
+  inline-size: max-content;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 2;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1350px) {
+  .chat-content{
+    margin-right: 80px;
+  }
+  .color{
+    height: 15px;
+    width: 15px;
+    margin: 0 10px -10px 0; 
+  }
+  .username{
+    font-size: 12px;
+    padding-bottom: 4px;
+    margin: 2px 6px 4px;
+  }
+  .chat-text{
+    margin-top: 10px;
+    padding: 10px 19px;
+    max-width: 300px;
+    margin: 0 7px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1000px){
+  .chat-content{
+    margin-right: 80px;
+  }
+  .color{
+    height: 15px;
+    width: 15px;
+    margin: 0 10px -10px 0; 
+  }
+  .username{
+    font-size: 12px;
+    padding-bottom: 4px;
+    margin: 2px 6px 4px;
+  }
+  .chat-text{
+    margin-top: 10px;
+    padding: 10px 19px;
+    max-width: 300px;
+    margin: 0 7px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 920px){
+  .chat-content{
+    margin-right: 80px;
+  }
+  .color{
+    height: 15px;
+    width: 15px;
+    margin: 0 10px -10px 0; 
+  }
+  .username{
+    font-size: 12px;
+    padding-bottom: 4px;
+    margin: 2px 6px 4px;
+  }
+  .chat-text{
+    margin-top: 10px;
+    padding: 10px 19px;
+    max-width: 300px;
+    margin: 0 7px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px){
+  .chat-content{
+    margin-right: 80px;
+  }
+  .color{
+    height: 15px;
+    width: 15px;
+    margin: 0 10px -10px 0; 
+  }
+  .username{
+    font-size: 12px;
+    padding-bottom: 4px;
+    margin: 2px 6px 4px;
+  }
+  .chat-text{
+    margin-top: 10px;
+    padding: 10px 19px;
+    max-width: 300px;
+    margin: 0 7px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  .chat-content{
+    margin-right: 40px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 6px;
+    padding-bottom: 2px;
+    margin: 1px 3px 2px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 3px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 600px) {
+  .chat-content{
+    margin-right: 40px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 6px;
+    padding-bottom: 2px;
+    margin: 1px 3px 2px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 3px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .chat-content{
+    margin-right: 40px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 6px;
+    padding-bottom: 2px;
+    margin: 1px 3px 2px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 3px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .chat-content{
+    margin-right: 40px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 6px;
+    padding-bottom: 2px;
+    margin: 1px 3px 2px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 2px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .chat-content{
+    margin-right: 40px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 6px;
+    padding-bottom: 2px;
+    margin: 1px 3px 2px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 3px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 200px) {
+  .chat-content{
+    margin-right: 40px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 6px;
+    padding-bottom: 2px;
+    margin: 1px 3px 2px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 -2px;
+    border-radius: 5px;
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 100px) {
+  .chat-content{
+    margin-right: 45px;
+  }
+  .color{
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 30%;
+    margin: 0 5px -5px 0; 
+  }
+  .username{
+    font-size: 5px;
+    padding-bottom: 1px;
+    margin: 1px -8px 1px;
+  }
+  .chat-text{
+    margin-top: 5px;
+    padding: 5px 9px;
+    max-width: 140px;
+    margin: 0 -25px;
+    border-radius: 5px;
+    font-size: 5px;
+  }
+}
